@@ -2,7 +2,7 @@
 
 const inquirer = require("inquirer");
 const fs = require("fs");
-const generateMarkdown = "./utils/generateMarkdown.js";
+const generateMarkdown = require("./utils/generateMarkdown.js");
 // const prompt = require('prompts');
 
 // TODO: Create an array of questions for user input, this will get called by prompt method
@@ -10,39 +10,54 @@ const questions = [
   {
     type: "input",
     message: "What is your project Title?",
-    name: "Project Title",
+    name: "title",
   },
   {
     type: "input",
     message: "What is a short description?",
-    name: "Description",
+    name: "description",
   },
   {
     type: "input",
     message: "What are the steps required to install",
-    name: "Installation",
+    name: "installation",
   },
   {
     type: "input",
     message: "Provide instructions and examples",
-    name: "Usage",
+    name: "usage",
   },
   {
     type: "input",
     message: "List the collaborators, such as links, profiles, tutorials, APIs",
-    name: "Credits",
+    name: "credits",
   },
   {
     type: "list",
     message: "What kind of license do you want?",
-    name: "License",
-    choices: ["MIT", "APACHE 2.0", "ISC", "NONE"],
+    name: "license",
+    choices: ["MIT", "APACHE", "ISC", "NONE"],
   },
   {
     type: "input",
     message: "List all the features",
-    name: "Features",
+    name: "features",
   },
+  {
+    type: "input",
+    message: "How to contribute",
+    name: "contributor",
+  },
+  {
+    type: "input",
+    message: "What is your GitHub user name",
+    name: "username",
+  },
+  {
+    type: "input",
+    message: "What is your email",
+    name: "email",
+  }
 ];
 
 // TODO: Create a function to write README file, will place this in function init
@@ -59,8 +74,9 @@ function init() {
     .prompt(questions)
     // promise, answers function takes answer responses and writes to readme
     .then((answers) => {
+      console.log(answers);
       const response = generateMarkdown(answers);
-      fs.writeToFile("./README.md", response);
+      writeToFile("README.md", response);
     });
 }
 
