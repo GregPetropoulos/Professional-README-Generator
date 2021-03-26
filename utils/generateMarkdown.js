@@ -13,7 +13,8 @@ function renderLicenseSection(license) {}
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `
-![GitHub License Badge](https://shields.io/badge/license-MIT-green)
+  ![GitHub License Badge](https://shields.io/badge/license-${data.license}-green)
+
 
   # **${data.title}**
 
@@ -26,9 +27,9 @@ ${data.description}
 - [Credits](#credits)
 - [Badges](#badges)
 - [Features](#features)
-- [How to Contribute](#howtocontribute)
+- [How to Contribute](#how-to-contribute)
 - [Test](#test)
-- [Code of Conduct](#contributorconvenantcodeofconduct)
+- [Code of Conduct](#contributor-covenant-code-of-conduct)
 - [License](#license)
 
 ## Installation
@@ -37,15 +38,28 @@ ${data.installation}
 ## Usage
 ${data.usage}
 
-![alt text](assets/images/screenshot.png)
+### Video
+[![a video walkthrough of the README generator](assets/images/screenshot1.png)](http://www.youtube.com/watch?v=xi-pgWb11iY "README Generator Walk Through")
+
+### screenshot 1
+![alt text](assets/images/screenshot1.png)
+
+### screenshot 2
+![alt text](assets/images/screenshot2.png)
+
+### screenshot 3
+![alt text](assets/images/screenshot3.png)
+
+### screenshot 4
+![alt text](assets/images/screenshot4.png)
+
 ## Credits
 ${data.credits}
 
 ## Badges
-[![forthebadge](https://forthebadge.com/images/badges/approved-by-george-costanza.svg)](https://forthebadge.com)
-[![forthebadge](https://forthebadge.com/images/badges/built-with-science.svg)](https://forthebadge.com)
-[![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com)
-[![forthebadge](https://forthebadge.com/images/badges/contains-17-coffee-cups.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/approved-by-george-costanza.svg)](https://github.com/gregpetropoulos)
+[![forthebadge](https://forthebadge.com/images/badges/built-with-science.svg)](https://github.com/gregpetropoulos)
+[![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://github.com/gregpetropoulos)
 
 ## Features
 ${data.features}

@@ -1,10 +1,11 @@
 
-![GitHub License Badge](https://shields.io/badge/license-MIT-green)
+  ![GitHub License Badge](https://shields.io/badge/license-MIT-green)
 
-  # **sdf**
+
+  # **README Generator by CLI**
 
 ## Description
-sdf
+The applications purpose is to generate a markdown file to reduce time spent on building out a README file. After running the application more time is allocated to production code. The javascript code will call  inquirer dependencies, write to a file the user inputs, and generate a README using template literals.
 
 ## Table of Contents
 - [Installation](#installation)
@@ -12,32 +13,45 @@ sdf
 - [Credits](#credits)
 - [Badges](#badges)
 - [Features](#features)
-- [How to Contribute](#howtocontribute)
+- [How to Contribute](#how-to-contribute)
 - [Test](#test)
-- [Code of Conduct](#contributorconvenantcodeofconduct)
+- [Code of Conduct](#contributor-covenant-code-of-conduct)
 - [License](#license)
 
 ## Installation
-dsf
+npm i, npm -y, npm inquirer, import the module for the generateMarkdown.js  into the index.js
 
 ## Usage
-df
+see scrfeenshots and vide
 
-![alt text](assets/images/screenshot.png)
+### Video
+[![a video walkthrough of the README generator](assets/images/screenshot1.png)](http://www.youtube.com/watch?v=xi-pgWb11iY "README Generator Walk Through")
+
+### screenshot 1
+![alt text](assets/images/screenshot1.png)
+
+### screenshot 2
+![alt text](assets/images/screenshot2.png)
+
+### screenshot 3
+![alt text](assets/images/screenshot3.png)
+
+### screenshot 4
+![alt text](assets/images/screenshot4.png)
+
 ## Credits
-sdfg
+github.com, https://shields.io/,https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide,https://www.npmjs.com/package//inquirer#installation, https://www.npmjs.com/,https://www.w3schools.com/nodejs/nodejs_modules.asp
 
 ## Badges
-[![forthebadge](https://forthebadge.com/images/badges/approved-by-george-costanza.svg)](https://forthebadge.com)
-[![forthebadge](https://forthebadge.com/images/badges/built-with-science.svg)](https://forthebadge.com)
-[![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com)
-[![forthebadge](https://forthebadge.com/images/badges/contains-17-coffee-cups.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/approved-by-george-costanza.svg)](https://github.com/gregpetropoulos)
+[![forthebadge](https://forthebadge.com/images/badges/built-with-science.svg)](https://github.com/gregpetropoulos)
+[![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://github.com/gregpetropoulos)
 
 ## Features
-23456789
+Command line, badges, videos, screentshots, licenses
 
 ## How to Contribute
-sdfghgrew456
+Add comment on github
 
 ## Tests
 
@@ -200,7 +214,7 @@ SOFTWARE.
 
 ## Questions
 ### Contact:
-Github: [https://github.com/gregpetropoulos](https://github.com/gregpetropoulos)
+Github: [https://github.com/GregPetropoulos](https://github.com/GregPetropoulos)
 
 
 Email: <gregpetropoulos@yahoo.com> 
