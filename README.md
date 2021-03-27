@@ -2,10 +2,10 @@
   ![GitHub License Badge](https://shields.io/badge/license-MIT-green)
 
 
-  # **README Generator by CLI**
+  # **Command Line README Generator**
 
 ## Description
-The applications purpose is to generate a markdown file to reduce time spent on building out a README file. After running the application more time is allocated to production code. The javascript code will call  inquirer dependencies, write to a file the user inputs, and generate a README using template literals.
+The applications purpose is to generate a markdown file to reduce time spent on building out a README file. After running the application more time is allocated to production code. The javascript code will call inquirer dependencies, write to a file the user inputs, and generate a README using template literals.
 
 ## Table of Contents
 - [Installation](#installation)
@@ -19,10 +19,10 @@ The applications purpose is to generate a markdown file to reduce time spent on 
 - [License](#license)
 
 ## Installation
-npm i, npm -y, npm inquirer, import the module for the generateMarkdown.js  into the index.js
+npm i, npm -y, npm inquirer, import the module for the generateMarkdown.js into the index.js
 
 ## Usage
-see scrfeenshots and vide
+See screenshots and video
 
 ### Video
 [![a video walkthrough of the README generator](assets/images/screenshot1.png)](http://www.youtube.com/watch?v=xi-pgWb11iY "README Generator Walk Through")
@@ -51,7 +51,7 @@ github.com, https://shields.io/,https://coding-boot-camp.github.io/full-stack/gi
 Command line, badges, videos, screentshots, licenses
 
 ## How to Contribute
-Add comment on github
+Add a link or comment.
 
 ## Tests
 
